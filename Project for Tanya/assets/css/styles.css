@@ -231,8 +231,6 @@
 	transition-duration: 0,4s;
 }
 
-/*********TABS-EFFECT************/
-
 .section-tabs {
 	background: #f5f5f5;
 }
@@ -314,7 +312,6 @@
 	height: 100%;
 }
 
-/**********************AWESOME********/
 .wrap-content {
 	padding-top: 100px;
 	padding-bottom: 105px;
@@ -387,8 +384,6 @@
 	display: block;
 	clear: both;
 }
-
-/*********************PRICING OPTION**************/
 
 .wrap-pricing {
 	background: #f5f5f5;
@@ -496,8 +491,6 @@
 	text-transform: uppercase;
 }
 
-/****************CUSTOMERS**********************/
-
 .wrap-customers {
 	padding-top: 107px;
 	padding-bottom: 100px;
@@ -593,8 +586,6 @@
 	font-size: 14px;
 }
 
-/**************************STILISH AXURE DESIGN********/
-
 .wrap-stylish {	
 	background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/stylish.jpg) no-repeat center;
 	background-size: cover;
@@ -650,8 +641,6 @@ button {
 	transform: scale(0.95);
 	background: rgba(0, 0, 0, .5);
 }
-
-/******************CONTACT-US*************/
 
 .section-contacts {
 	padding-top: 100px;
@@ -719,8 +708,6 @@ button {
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 }
-
-/***********************FOOTER****************/
 
 .wrap-footer {
 	background: #000;
