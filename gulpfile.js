@@ -2,14 +2,14 @@ const gulp = require('gulp');
 const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 const htmlmin = require('gulp-htmlmin');
-const connect = require('gulp-connect');
+//const connect = require('gulp-connect');
 
-gulp.task('server', function() {
+/*gulp.task('server', function() {
   connect.server({
     root: 'public',
     livereload: true
   });
-});
+});*/
 
 gulp.task('say-hello', function(done) {
   console.log('Hello world');
@@ -22,7 +22,7 @@ gulp.task('uglify', function() {
     .pipe(babel())
     .pipe(uglify())
     .pipe(gulp.dest('./public/js'))
-    .pipe(connect.reload());
+    //.pipe(connect.reload());
 });
 
 gulp.task('watch', function() {
@@ -35,7 +35,7 @@ gulp.task('html', () => {
     .src('src/*.html')
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('./public'))
-    .pipe(connect.reload());
+    //.pipe(connect.reload());
 });
 
-gulp.task('default', gulp.parallel(['server', 'watch']));
+//gulp.task('default', gulp.parallel(['server', 'watch']));
