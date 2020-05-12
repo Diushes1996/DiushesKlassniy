@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo by Kulinich Andrew</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <div id="root">
+        <div class="container">
+            <h1>Список дел</h1>
+            <p>Для того чтобы добавить новое дело нажмите на кнопку "Добавить задание"</p>
+            <button id="show-form">Добавить задание</button>
+
+
+            <div class="item-form">
+                <div class="item-form__input">
+                    <label for="name">Название задания</label>
+                    <input id="name" placeholder="Обязательно для заполнения"/>
+                </div>
+                <div class="item-form__input">
+                    <label for="description">Описание задания</label>
+                    <input id="description" placeholder="Необязательно для заполнения"/>
+                </div>
+                <div class="item-form__input">
+                    <label for="priority">Приоритет</label>
+                    <input id="priority" placeholder="Необязательно для заполнения"/>
+                </div>
+                <div class="item-form__action">
+                    <button id="add-item">Добавить</button>
+                    <button id="cancel">Отмена</button>
+                </div>
+            </div>
+        </div>
+        <div class="tab">
+            <button id="tab__real">Текущие задачи</button>
+            <button id="tab__complete">Выполненные задачи</button>
+            <button id="tab__delete">Удаленные задачи</button>
+        </div>
+
+        <div class="tabcontent__real">
+            <div>
+                <table id="work__real">
+
+                </table>
+            </div>
+        </div>
+
+        <div class="tabcontent__complete">
+            <div>
+                <table id="work__complete">
+
+                </table>
+            </div>
+            
+        </div>
+
+        <div class="tabcontent__delete">
+            <div>
+                <table id="work__delete">
+
+                </table>
+            </div>
+            
+        </div>
+    </div>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+.container {
+    max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-form{
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 200px;
+}
+
+div#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-form__input {
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
+
+input#name{
+    width: 300px;
+    margin-left: 40px;
+}
+
+input#description{
+    width: 300px;
+    margin-left: 36px;
+}
+
+input#priority{
+    width: 300px;
+    margin-left: 88px;
+}
+
+.item-form__action{
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #4CAF50;
+    background-color: #C8E6C9;
+}
+
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+
+.tab button:hover {
+    background-color: #FFEB3B;
+}
+
+
+.tab button.active {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.tabcontent__real{
+    min-width: 1100px;
+    min-height: 600px;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #4CAF50;
+}
+
+.tabcontent__complete{
+    min-width: 1100px;
+    min-height: 600px;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #4CAF50;
+}
+
+.tabcontent__delete{
+    min-width: 1100px;
+    min-height: 600px;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #4CAF50;
+}
